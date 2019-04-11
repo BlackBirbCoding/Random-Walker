@@ -7,13 +7,11 @@
 |                                                            |
 |************************************************************/
 
-// Define Walker
+// Define walkler variable.
 let walker;
 
 function setup() {
-  // Create a canvas.
   createCanvas(450, 450);
-  // Dark background.
   background(50);
   
   // Initialize walker as a new Walker object.
@@ -21,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-  // Call show and update functions inside Walker class.
+  // Call the show() and walk() functions of Walker object.
   walker.show();
   walker.walk();
 }
