@@ -10,8 +10,8 @@ class Walker {
   	Random x and y speed. Decides the direction of walk.
   	Possible values for xspeed and yspeed :- -1, 0, 1
 
-  	(0, 0)   -: Same place
-  	(0, -1)  -: North (Up)
+    (0, 0)   -: Same place
+    (0, -1)  -: North (Up)
     (1, -1)  -: North-east (Top right)
     (1, 0)   -: East (Right)
     (1, 1)   -: South-east (Botton right)
